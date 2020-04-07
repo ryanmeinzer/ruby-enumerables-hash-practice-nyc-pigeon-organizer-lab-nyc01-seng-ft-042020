@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
   # HoHoA
   data.each do |key, value|
     value.each do |k, v|
+      binding.pry
     end
-binding.pry
   end
 end
