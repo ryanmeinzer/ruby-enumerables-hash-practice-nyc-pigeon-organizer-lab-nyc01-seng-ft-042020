@@ -6,8 +6,8 @@ def nyc_pigeon_organizer(data)
   updated_data = {}
   data.each do |key, value|
     value.each do |k, v|
-      k.each do |pigeon|
-        updated_data[pigeon] = value
+      v.each do |pigeon|
+        updated_data[pigeon] = 
 binding.pry
       end
     end
