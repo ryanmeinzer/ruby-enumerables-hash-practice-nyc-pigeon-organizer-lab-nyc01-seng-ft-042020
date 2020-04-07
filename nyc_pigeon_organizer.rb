@@ -4,10 +4,10 @@ def nyc_pigeon_organizer(data)
   # write your code here!
   # HoHoA
   updated_data = {}
-  data.each do |key, value|
-    value.each do |k, v|
-      v.each do |pigeon|
-        updated_data[pigeon] =
+  data.each do |color_gender_location, value_hash|
+    value_hash.each do |attributes, value_array|
+      value_array.each do |name|
+        updated_data[name] =
 binding.pry
       end
     end
