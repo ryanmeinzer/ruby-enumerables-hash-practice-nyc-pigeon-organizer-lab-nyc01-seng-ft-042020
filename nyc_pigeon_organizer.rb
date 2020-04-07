@@ -1,5 +1,3 @@
-require 'pry'
-
 def nyc_pigeon_organizer(data)
   # write your code here!
   # HoHoA
@@ -10,7 +8,6 @@ def nyc_pigeon_organizer(data)
         updated_data[name] ||= {}
         updated_data[name][color_gender_location] ||= []
         updated_data[name][color_gender_location].push(attributes.to_s)
-# binding.pry
         # if !updated_data[name]
         #   updated_data[name] = {}
         # end
