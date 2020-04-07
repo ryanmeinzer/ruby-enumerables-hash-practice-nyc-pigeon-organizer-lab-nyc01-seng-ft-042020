@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
   data.each do |color_gender_location, value_hash|
     value_hash.each do |attributes, value_array|
       value_array.each do |name|
-binding.pry
+# binding.pry
         # if !updated_data[name]
         #   updated_data[name] = {}
         # end
