@@ -9,14 +9,14 @@ def nyc_pigeon_organizer(data)
       value_array.each do |name|
         if !updated_data[name]
           updated_data[name] = {}
-          end
-          if !updated_data[name][color_gender_location]
-            updated_data[name][color_gender_location] = []
-          end
-            if !updated_data[name][color_gender_location].include?(attributes)
-              updated_data[name][color_gender_location].push(attributes.to_s)
+        end
+        if !updated_data[name][color_gender_location]
+          updated_data[name][color_gender_location] = []
+        end
+        if !updated_data[name][color_gender_location].include?(attributes)
+          updated_data[name][color_gender_location].push(attributes.to_s)
 # binding.pry
-            end
+        end
       end
     end
   end
