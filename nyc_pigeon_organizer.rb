@@ -7,6 +7,9 @@ def nyc_pigeon_organizer(data)
   data.each do |color_gender_location, value_hash|
     value_hash.each do |attributes, value_array|
       value_array.each do |name|
+        !updated_data[name] {}
+        !updated_data[name][color_gender_location] []
+        organized[name][color_gender_location].include?(attributes) << attributes.to_s
 # binding.pry
         # if !updated_data[name]
         #   updated_data[name] = {}
