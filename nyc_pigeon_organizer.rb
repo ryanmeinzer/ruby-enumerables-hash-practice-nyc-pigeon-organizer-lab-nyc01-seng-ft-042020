@@ -13,7 +13,7 @@ def nyc_pigeon_organizer(data)
             updated_data[name][color_gender_location] = []
             if !updated_data[name][color_gender_location].include?(attributes)
               updated_data[name][color_gender_location].push(attributes.to_s)
-binding.pry
+# binding.pry
       end
     end
   end
