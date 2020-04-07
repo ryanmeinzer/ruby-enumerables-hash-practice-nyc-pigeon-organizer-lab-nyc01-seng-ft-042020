@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
   data.each do |key, value|
     value.each do |color, pigeons_array|
       pigeons_array.each do |pigeon|
-        updated_data[pigeon] = color_hash
+        updated_data[pigeon] = value
       binding.pry
       end
     end
