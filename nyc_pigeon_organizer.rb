@@ -14,6 +14,9 @@ def nyc_pigeon_organizer(data)
             if !updated_data[name][color_gender_location].include?(attributes)
               updated_data[name][color_gender_location].push(attributes.to_s)
 # binding.pry
+            end
+          end
+        end
       end
     end
   end
