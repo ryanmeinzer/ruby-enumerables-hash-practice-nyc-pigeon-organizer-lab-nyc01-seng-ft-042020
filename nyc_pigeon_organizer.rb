@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
   # HoHoA
   updated_data = {}
   data.each do |key, value|
-    color_hash.each do |color, pigeons_array|
+    value.each do |color, pigeons_array|
       pigeons_array.each do |pigeon|
         updated_data[pigeon] = color_hash
       binding.pry
