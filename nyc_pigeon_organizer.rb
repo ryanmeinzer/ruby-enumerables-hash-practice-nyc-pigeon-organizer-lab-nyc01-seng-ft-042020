@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
   # write your code here!
   # HoHoA
   updated_data = {}
-  data.each do |key, value|
+  data.each do |color, value|
     value.each do |k, v|
       v.each do |pigeon|
         # updated_data << {:k2}
